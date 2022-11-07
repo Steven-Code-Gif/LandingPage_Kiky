@@ -1,0 +1,218 @@
+@import url("assets/css/all.css");
+.logo-kiky {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.logo-kiky img {
+  width: 80px;
+}
+
+.section-kiky-delivery {
+  position: relative;
+}
+
+.section-kiky-delivery .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.section-kiky-delivery .content-text1 img {
+  width: 30rem;
+}
+
+.section-kiky-delivery .content-text2 img {
+  width: 20rem;
+}
+
+.section-kiky-delivery .content-kiky .delivery-logo img {
+  width: 125px;
+  text-align: center;
+}
+
+.section-kiky-delivery .kiky-banner {
+  position: absolute;
+  top: 100%;
+  left: 70%;
+  margin-top: -21.1%;
+}
+
+.section-kiky-delivery .kiky-banner img {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .logo-kiky {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  .logo-kiky img {
+    width: 60px;
+  }
+  .section-kiky-delivery {
+    position: relative;
+  }
+  .section-kiky-delivery .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  .section-kiky-delivery .content-text1 img {
+    width: 20rem;
+  }
+  .section-kiky-delivery .content-text2 img {
+    width: 10rem;
+  }
+  .section-kiky-delivery .content-kiky .delivery-logo img {
+    width: 125px;
+    text-align: center;
+  }
+  .section-kiky-delivery .kiky-banner {
+    position: absolute;
+    top: 100%;
+    left: 53%;
+    margin-top: -33%;
+  }
+  .section-kiky-delivery .kiky-banner img {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .logo-kiky {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+  .logo-kiky img {
+    width: 50px;
+  }
+  .section-kiky-delivery {
+    flex-direction: column;
+  }
+  .section-kiky-delivery .content-kiky h2 {
+    font-size: xx-large;
+  }
+  .section-kiky-delivery .content-kiky .delivery-logo img {
+    width: 100px;
+  }
+  .section-kiky-delivery .kiky-banner {
+    position: absolute;
+    margin-top: -56.5%;
+    top: 100%;
+    left: 20%;
+  }
+  .section-kiky-delivery .kiky-banner img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-kiky {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+  .logo-kiky img {
+    width: 60px;
+  }
+  .section-kiky-delivery .content-text1 img {
+    width: 17rem;
+  }
+  .section-kiky-delivery .content-text2 img {
+    width: 10rem;
+  }
+  .section-kiky-delivery .kiky-banner {
+    margin-top: -38%;
+    top: 100%;
+    left: 45%;
+  }
+  .section-kiky-delivery .kiky-banner img {
+    width: 26rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .logo-kiky {
+    position: absolute;
+    top: 7%;
+    left: 7%;
+  }
+  .logo-kiky img {
+    width: 50px;
+  }
+  .section-kiky-delivery {
+    position: relative;
+  }
+  .section-kiky-delivery .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  .section-kiky-delivery .content-text1 img {
+    width: 15rem;
+  }
+  .section-kiky-delivery .content-text2 img {
+    width: 10rem;
+  }
+  .section-kiky-delivery .content-kiky .delivery-logo img {
+    width: 120px;
+    text-align: center;
+  }
+  .section-kiky-delivery .kiky-banner {
+    position: absolute;
+    top: 100%;
+    left: 23%;
+    margin-top: -53.5%;
+  }
+  .section-kiky-delivery .kiky-banner img {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .logo-kiky {
+    position: absolute;
+    top: 7%;
+    left: 7%;
+  }
+  .logo-kiky img {
+    width: 50px;
+  }
+  .section-kiky-delivery .kiky-banner {
+    margin-top: -71%;
+    top: 100%;
+    left: 0%;
+  }
+  .section-kiky-delivery .kiky-banner img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo-kiky {
+    position: absolute;
+    top: 7%;
+    left: 7%;
+  }
+  .logo-kiky img {
+    width: 50px;
+  }
+  .section-kiky-delivery .kiky-banner {
+    margin-top: -71%;
+    top: 100%;
+    left: 0%;
+  }
+  .section-kiky-delivery .kiky-banner img {
+    width: 100%;
+  }
+}
